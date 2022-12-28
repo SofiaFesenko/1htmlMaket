@@ -1,0 +1,136 @@
+@media (max-width: 819px) {
+    .footer__up__pages__medias__medias{
+        display: block;
+    }
+    .footer__up__pages__letter {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__up {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__up__pages {
+        margin-bottom: 20px;
+    }
+    .footer__up__medias {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 651px) {
+    .arrangements__icons__icon {
+        height: 57px;
+    }
+    .book__info__button {
+        padding: 12px 22px;
+    }
+}
+
+@media (max-width: 625px) {
+    .header__menu{
+        display: block;
+        text-align: center;
+    }
+    .header__icon {
+        display: block;
+        margin-bottom: 7px;
+    }
+    .header__menu__links {
+        margin: auto;
+        width: 100%;
+        max-width: 230px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 23px;
+    }
+    .header__menu__link {
+        max-width: 100%;
+    }
+
+    .also-info__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .also-info__right__button {
+        margin-top: 20px;
+    }
+
+    .home__title {
+        font-size: 80px;
+    }
+
+    .arrangements__icons {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .guests__cards {
+        grid-template-columns: 1fr;
+    }
+
+    .together__flex {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 570px) {
+    .info__icon {
+        height: 75px;
+    }
+    .info__title {
+        font-size: 44px;
+    }
+    .info__subtitle {
+        font-size: 12px;
+    }
+    
+    .escape__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .together__flex {
+        display: grid;
+    }
+}
+
+@media (max-width: 410px) {
+    .home__title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .arrangements__icons__icon {
+        height: 48px;
+    }
+
+    .together__right {
+        grid-template-columns: 1fr;
+    }
+
+    .book__info__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .book__info__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .book__info__button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .arrangements__icons {
+        grid-template-columns: 1fr;
+        gap: 21px;
+    }
+}
+
+
+
+
+
