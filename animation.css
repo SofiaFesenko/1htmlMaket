@@ -1,0 +1,123 @@
+.header__button {
+    animation-duration: 3s;
+}
+
+.header__button:hover {
+    animation-name: hb;
+}
+
+@keyframes hb {
+    0% {
+        transform: scale(1);
+        background-color: rgb(255, 255, 255);
+    }
+    50% {
+        transform: scale(1.1);
+        background-color: rgb(233, 198, 179);
+    }
+    100% {
+        transform: scale(1);
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+.header__menu__link:hover {
+    color: rgb(233, 183, 154);
+}
+
+
+.also-info__right__button {
+    animation-duration: 2s;
+}
+
+.also-info__right__button:hover {
+    animation-name: airb;
+}
+
+@keyframes airb {
+    0% {
+        transform: scale(1.2);
+    }
+    10% {
+        transform: scale(1.2) rotate(360deg);
+    }
+    20% {
+        transform: scale(1.2) rotate(-360deg);
+    }
+    30% {
+        transform: scale(1.2) rotate(360deg);
+    }
+    40% {
+        transform: scale(1.2) rotate(-360deg);
+    }
+    50% {
+        transform: scale(1.2) rotate(360deg);
+    }
+    60% {
+        transform: scale(1.2) rotate(-360deg);
+    }
+    70% {
+        transform: scale(1.2) rotate(360deg);
+    }
+    80% {
+        transform: scale(1.2) rotate(-360deg);
+    }
+    90% {
+        transform: scale(1.2) rotate(360deg);
+    }
+    100% {
+        transform: scale(1.2) rotate(-360deg);
+    }
+}
+
+
+.book__info__button {
+    animation-duration: 2s;
+}
+
+.book__info__button:hover {
+    animation-name: bib;
+}
+
+.book__info__button--color:hover {
+    animation-name: bib2;
+}
+
+@keyframes bib {
+    0% {
+        border: 4px solid #52503B;
+    }
+    50% {
+        border: 4px solid #b6b497;
+    }
+    100% {
+        border: 4px solid #52503B;
+    }
+}
+
+@keyframes bib2 {
+    0% {
+        border: 4px solid #52503B;
+        background-color: #52503B;
+    }
+    50% {
+        border: 4px solid #b6b497;
+        color: #52503B;
+        background-color: #b6b497;
+    }
+    100% {
+        border: 4px solid #52503B;
+        background-color: #52503B;
+    }
+}
+
+
+
+.footer__up__text:hover {
+    color: rgb(233, 183, 154);
+}
+
+.footer__input__button:hover {
+    background-color: #7a785b; 
+}
